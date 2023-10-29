@@ -1,0 +1,41 @@
+{"level":"info","message":"[CreateUser] => login proccess started"}
+{"level":"error","message":"proccess is not defined"}
+{"level":"info","message":"[CreateUser] => login proccess started"}
+{"level":"info","message":"[CreateUser] => login process done"}
+{"level":"error","message":"Error fetching blogs: id is not defined"}
+{"level":"error","message":"Error fetching blogs: _id is not defined"}
+{"level":"error","message":"Error fetching blogs: _id is not defined"}
+{"level":"error","message":"Error fetching blogs: _id is not defined"}
+{"level":"error","message":"Error fetching blogs: _id is not defined"}
+{"level":"error","message":"Error fetching blogs: id is not defined"}
+{"level":"error","message":"Error fetching tasks: Cannot read properties of undefined (reading 'authorization')"}
+{"level":"error","message":"Error fetching tasks: Cannot read properties of undefined (reading 'authorization')"}
+{"level":"info","message":"[CreateUser] => login proccess started"}
+{"level":"info","message":"[CreateUser] => login process done"}
+{"level":"error","message":"Error fetching tasks: Cannot read properties of undefined (reading 'authorization')"}
+{"level":"info","message":"[CreateUser] => login proccess started"}
+{"level":"info","message":"[CreateUser] => login process done"}
+{"level":"error","message":"Error fetching tasks: Cannot read properties of undefined (reading 'split')"}
+{"level":"error","message":"Error fetching tasks: Cannot read properties of undefined (reading 'split')"}
+{"level":"error","message":"proccess is not defined"}
+{"level":"info","message":"[CreateUser] => login proccess started"}
+{"level":"info","message":"[CreateUser] => login process done"}
+{"level":"error","message":"Error fetching tasks: blogs validation failed: _id: this.splitPath is not a function"}
+{"level":"error","message":"Error fetching tasks: blogs validation failed: _id: this.splitPath is not a function"}
+{"level":"error","message":"Error fetching tasks: blogs validation failed: _id: this.splitPath is not a function"}
+{"level":"error","message":"Error fetching tasks: document must have an _id before saving"}
+{"level":"error","message":"Error fetching tasks: jwt expired"}
+{"level":"info","message":"[CreateUser] => login proccess started"}
+{"level":"info","message":"[CreateUser] => login process done"}
+{"level":"info","message":"[CreateUser] => login proccess started"}
+{"level":"info","message":"[CreateUser] => login process done"}
+{"level":"info","message":"[CreateUser] => login proccess started"}
+{"level":"info","message":"[CreateUser] => login process done"}
+{"level":"error","message":"Error fetching tasks: invalid token"}
+{"level":"error","message":"Error fetching tasks: \"title\" is required"}
+{"level":"error","message":"Error fetching owner's blogs: UserModel is not defined"}
+{"level":"error","message":"Error fetching tasks: jwt expired"}
+{"level":"info","message":"[CreateUser] => login proccess started"}
+{"level":"info","message":"[CreateUser] => login process done"}
+{"level":"info","message":"[CreateUser] => login proccess started"}
+{"level":"info","message":"[CreateUser] => login proccess started"}
