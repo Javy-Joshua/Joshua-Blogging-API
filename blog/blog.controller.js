@@ -1,6 +1,7 @@
 const BlogModel = require("../model/blog.model");
 const UserModel = require('../model/user.model')
 const logger = require("../logger");
+const Cache = require("../helpers/cache.helper")
 
 function estimateReadingTime(body) {
   // Assuming an average reading speed of 200 words per minute
@@ -60,7 +61,15 @@ const GetPublished = async (req, res) => {
     const endIndex = page * limit;
     const paginatedBlogs = filteredBlogs.slice(startIndex, endIndex);
 
-    res.status(200).json(paginatedBlogs);
+    // res.status(200).json(paginatedBlogs);
+
+    console.log("cache miss")
+    const TTL_1_DAY = 60 * 60 * 24
+    Cache.set( cacheKey, blogs, TTL_1_DAY)
+    // res.json({ success: true, message: "success", data: blogs})
+
+     res.status(200).json(paginatedBlogs);
+
   } catch (error) {
     logger.error(`Error fetching blogs: ${error.message}`);
     return res.status(500).json({
@@ -102,11 +111,11 @@ const CreateBlog = async (req, res) => {
 
 const AuthorBlog = async (req, res) => {
   try {
-    const { userId } = req.params; // Assuming you have the user's ID in the route params
+    const  userId  = req.params.id; // Assuming you have the user's ID in the route params
     
     // Find the user based on the userId
     const user = await UserModel.find({ _id: userId });
-    console.log(user)
+    // console.log(user)
     if (!user) {
       return res.status(404).json({
         message: "User not found",

@@ -32,19 +32,21 @@ const ValidateBlogUpdate = async (req, res, next) => {
       author: joi.string().required(),
       state: joi.string().valid("draft", "completed").optional(),
       body: joi.string().required(),
-    });
+    })
 
-    await schema.validateAsync(req.body, { abortEarly: true });
+    await schema.validateAsync(req.body, {abortEarly: true})
 
-    next();
+    next()
   } catch (error) {
-    logger.error(`Error fetching tasks: ${error.message}`);
+    logger.error(`Error fetching tasks: ${error.message}`)
     return res.status(422).json({
       message: error.message,
-      success: false,
-    });
+      success: false 
+    })
   }
-};
+}
+
+
 
 module.exports = {
   ValidateBlogCreation,

@@ -5,7 +5,7 @@ const ValidateUserCreation = async (req, res, next) => {
     try {
         const schema =  joi.object({
             firstname: joi.string().required(),
-            lastname: joi.string().required(),
+            lastname: joi.string().email().required(),
             email: joi.string().required(),
             password: joi.string().required(),
         })
@@ -23,7 +23,7 @@ const ValidateUserCreation = async (req, res, next) => {
 const LoginValidation = async (req, res, next) => {
     try {
         const schema = joi.object({
-          email: joi.string().required(),
+          email: joi.string().email().required(),
           password: joi.string().required(),
         });
 

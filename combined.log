@@ -39,3 +39,29 @@
 {"level":"info","message":"[CreateUser] => login process done"}
 {"level":"info","message":"[CreateUser] => login proccess started"}
 {"level":"info","message":"[CreateUser] => login proccess started"}
+{"level":"info","message":"[CreateUser] => login proccess started"}
+{"level":"error","message":"secretOrPrivateKey must have a value"}
+{"level":"info","message":"[CreateUser] => login proccess started"}
+{"level":"error","message":"secretOrPrivateKey must have a value"}
+{"level":"info","message":"[CreateUser] => login proccess started"}
+{"level":"info","message":"[CreateUser] => login process done"}
+{"level":"error","message":"Error fetching tasks: Cannot set properties of undefined (setting 'users')"}
+{"level":"info","message":"[CreateUser] => login proccess started"}
+{"level":"info","message":"[CreateUser] => login process done"}
+{"level":"info","message":"[CreateUser] => login proccess started"}
+{"level":"info","message":"[CreateUser] => login process done"}
+{"level":"error","message":"Error fetching tasks: Cannot set properties of undefined (setting 'users')"}
+{"level":"error","message":"Error fetching tasks: Cannot set properties of undefined (setting 'users')"}
+{"level":"error","message":"Error fetching tasks: Cannot set properties of undefined (setting 'users')"}
+{"level":"error","message":"Error fetching tasks: Cannot set properties of undefined (setting 'users')"}
+{"level":"error","message":"Error fetching tasks: Cannot set properties of undefined (setting 'users')"}
+{"level":"error","message":"Error fetching tasks: Cannot set properties of undefined (setting 'users')"}
+{"level":"error","message":"Error fetching owner's blogs: user_id is not defined"}
+{"level":"error","message":"Error fetching blogs: cacheKey is not defined"}
+{"level":"error","message":"Error fetching blogs: cacheKey is not defined"}
+{"level":"error","message":"Error fetching blogs: The key argument has to be of type `string` or `number`. Found: `object`"}
+{"level":"error","message":"Error fetching blogs: cacheKey is not defined"}
+{"level":"error","message":"Error fetching blogs: cacheKey is not defined"}
+{"level":"error","message":"Error fetching blogs: cacheKey is not defined"}
+{"level":"error","message":"Error fetching blogs: cacheKey is not defined"}
+{"level":"error","message":"Error fetching blogs: cacheKey is not defined"}
